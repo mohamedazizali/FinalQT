@@ -44,7 +44,7 @@ void eleve_am::setMode(int value)
 
 void eleve_am::on_buttonBox_accepted()
 {
-    Eleve E;
+    Formateur E;
 
 
     E.setMatricule(ui->matricule->text());

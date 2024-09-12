@@ -3,7 +3,7 @@
 
 #include <QDialog>
 
-#include "eleve.h"
+#include "formateur.h"
 #include "mainwindow.h"
 
 class MainWindow;

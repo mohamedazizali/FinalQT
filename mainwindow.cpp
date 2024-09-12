@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    QStringList n = A.notifcation();
+    QStringList n = A.notification();
     QMessageBox::information(nullptr, QObject::tr("notification des activite d'aujourd'hui"),
                  QObject::tr(n.join('\n').toUtf8().constData()), QMessageBox::Cancel);
 
@@ -116,10 +116,10 @@ void MainWindow::on_pushButton_3_clicked()
     QString directoryPath = QFileDialog::getExistingDirectory(&parent, "Select Directory", "");
 
     if(page==0){
-       E.exporterCSV(directoryPath+"/eleve.csv",model);
+       E.exporterCSV(directoryPath+"/formateur.csv",model);
     }
     else if(page==1){
-       A.exporterCSV(directoryPath+"/activite.csv",model);
+       A.exporterCSV(directoryPath+"/formation.csv",model);
     }
 
 

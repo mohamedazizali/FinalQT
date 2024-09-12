@@ -17,17 +17,23 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     activiteui.cpp \
+    association.cpp \
     associationui.cpp \
     connection.cpp \
     eleve_am.cpp \
+    formateur.cpp \
+    formation.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     activiteui.h \
+    association.h \
     associationui.h \
     connection.h \
     eleve_am.h \
+    formateur.h \
+    formation.h \
     mainwindow.h
 
 FORMS += \

@@ -64,12 +64,12 @@
     <rect>
      <x>90</x>
      <y>30</y>
-     <width>171</width>
+     <width>201</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Activite que l'eleve est inscrit</string>
+    <string>Formation que le formateur est inscrit</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -77,12 +77,12 @@
     <rect>
      <x>600</x>
      <y>30</y>
-     <width>201</width>
+     <width>221</width>
      <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>Activite que l'eleve n'est pas inscrit</string>
+    <string>Formation que le formateur n'est pas inscrit</string>
    </property>
   </widget>
   <widget class="Line" name="line">

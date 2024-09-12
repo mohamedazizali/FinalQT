@@ -20,7 +20,7 @@ ActiviteUI::~ActiviteUI()
 
 void ActiviteUI::on_buttonBox_accepted()
 {
-    Activite A;
+    Formation A;
 
     A.setMatricule(ui->matricule->text());
     A.setTitre(ui->titre->text());

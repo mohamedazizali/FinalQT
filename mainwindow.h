@@ -6,9 +6,9 @@
 
 #include <QFileDialog>
 
-#include "eleve.h"
+
 #include "Formation.h"
-#include "association.h"
+
 
 #include "eleve_am.h"
 #include "activiteui.h"
@@ -60,8 +60,8 @@ private:
 
     AssociationUI *association;
 
-    Eleve E;
-    Activite A;
+    Formateur E;
+    Formation A;
     Association As;
 };
 #endif // MAINWINDOW_H
